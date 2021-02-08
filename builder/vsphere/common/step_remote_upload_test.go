@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/packer/builder/vsphere/driver"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/builder/vsphere/driver"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 func TestStepRemoteUpload_Run(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep/commonsteps"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep/commonsteps"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 type uploaderMock struct {

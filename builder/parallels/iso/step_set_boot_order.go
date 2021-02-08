@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	parallelscommon "github.com/hashicorp/packer/builder/parallels/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	parallelscommon "github.com/Bourne-ID/packer/builder/parallels/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 // This step sets the device boot order for the virtual machine.

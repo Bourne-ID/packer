@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"os"
 
-	parallelscommon "github.com/hashicorp/packer/builder/parallels/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/bootcommand"
-	"github.com/hashicorp/packer/packer-plugin-sdk/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep/commonsteps"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/shutdowncommand"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/config"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/interpolate"
+	parallelscommon "github.com/Bourne-ID/packer/builder/parallels/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/bootcommand"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep/commonsteps"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/shutdowncommand"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/config"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/interpolate"
 )
 
 // Config is the configuration structure for the builder.

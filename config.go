@@ -11,9 +11,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/packer/command"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer/plugin"
+	"github.com/Bourne-ID/packer/command"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer/plugin"
 )
 
 // PACKERSPACE is used to represent the spaces that separate args for a command

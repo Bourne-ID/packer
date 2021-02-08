@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/hashicorp/packer/command"
+	"github.com/Bourne-ID/packer/command"
 	"github.com/mitchellh/cli"
 )
 

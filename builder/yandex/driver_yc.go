@@ -8,12 +8,12 @@ import (
 	"time"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/useragent"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/useragent"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/hashicorp/packer/builder/yandex/version"
+	"github.com/Bourne-ID/packer/builder/yandex/version"
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/compute/v1"
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/endpoint"
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/vpc/v1"

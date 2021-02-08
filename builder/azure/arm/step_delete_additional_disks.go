@@ -7,10 +7,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/hashicorp/packer/builder/azure/common/constants"
+	"github.com/Bourne-ID/packer/builder/azure/common/constants"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 type StepDeleteAdditionalDisk struct {

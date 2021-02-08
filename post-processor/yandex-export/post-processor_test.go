@@ -3,10 +3,10 @@ package yandexexport
 import (
 	"testing"
 
-	"github.com/hashicorp/packer/builder/yandex"
+	"github.com/Bourne-ID/packer/builder/yandex"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 func TestPostProcessor_Configure(t *testing.T) {

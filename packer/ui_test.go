@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 // This reads the output from the bytes.Buffer in our test object

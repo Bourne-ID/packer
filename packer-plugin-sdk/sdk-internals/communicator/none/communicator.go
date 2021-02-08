@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 type comm struct {

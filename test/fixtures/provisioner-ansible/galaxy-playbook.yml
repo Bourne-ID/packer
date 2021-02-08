@@ -30,4 +30,4 @@
     - name: test collection - fetch latest repo version
       set_fact:
         # Ansible will fail if collection is not installed
-        packer_version: "{{ lookup('artis3n.github.latest_release', 'hashicorp/packer' }}"
+        packer_version: "{{ lookup('artis3n.github.latest_release', 'Bourne-ID/packer' }}"

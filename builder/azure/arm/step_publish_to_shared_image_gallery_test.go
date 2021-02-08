@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/packer/builder/azure/common/constants"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/builder/azure/common/constants"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 func TestStepPublishToSharedImageGalleryShouldNotPublishForVhd(t *testing.T) {

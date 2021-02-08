@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/packer/builder/yandex"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	"github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/builder/yandex"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/compute/v1"
 )
 

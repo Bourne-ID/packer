@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	vboxcommon "github.com/hashicorp/packer/builder/virtualbox/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	vboxcommon "github.com/Bourne-ID/packer/builder/virtualbox/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 func TestStepImport_impl(t *testing.T) {

@@ -8,10 +8,10 @@ import (
 	"io/ioutil"
 	"net"
 
-	"github.com/hashicorp/packer/builder/vsphere/driver"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/config"
+	"github.com/Bourne-ID/packer/builder/vsphere/driver"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/config"
 	"github.com/vmware/govmomi/vim25/types"
 )
 

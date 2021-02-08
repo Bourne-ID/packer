@@ -8,9 +8,9 @@ import (
 	"github.com/gobwas/glob"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	pkrfunction "github.com/hashicorp/packer/hcl2template/function"
-	"github.com/hashicorp/packer/packer"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	pkrfunction "github.com/Bourne-ID/packer/hcl2template/function"
+	"github.com/Bourne-ID/packer/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"
 )

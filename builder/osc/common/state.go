@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/antihax/optional"
-	"github.com/hashicorp/packer/builder/osc/common/retry"
+	"github.com/Bourne-ID/packer/builder/osc/common/retry"
 	"github.com/outscale/osc-sdk-go/osc"
 )
 

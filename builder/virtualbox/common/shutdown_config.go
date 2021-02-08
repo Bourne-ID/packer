@@ -5,7 +5,7 @@ package common
 import (
 	"time"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/interpolate"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/interpolate"
 )
 
 type ShutdownConfig struct {

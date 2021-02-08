@@ -13,11 +13,11 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclparse"
-	"github.com/hashicorp/packer/hcl2template"
-	"github.com/hashicorp/packer/packer"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template"
-	"github.com/hashicorp/packer/version"
+	"github.com/Bourne-ID/packer/hcl2template"
+	"github.com/Bourne-ID/packer/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template"
+	"github.com/Bourne-ID/packer/version"
 	"golang.org/x/sync/semaphore"
 
 	"github.com/hako/durafmt"

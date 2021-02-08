@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	common "github.com/hashicorp/packer/builder/proxmox/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/communicator/ssh"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/uuid"
+	common "github.com/Bourne-ID/packer/builder/proxmox/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/communicator/ssh"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/uuid"
 )
 
 // StepSshKeyPair executes the business logic for setting the SSH key pair in

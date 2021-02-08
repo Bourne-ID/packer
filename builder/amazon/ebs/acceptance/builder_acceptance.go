@@ -9,9 +9,9 @@ import (
 	"os"
 	"path/filepath"
 
-	amazonebsbuilder "github.com/hashicorp/packer/builder/amazon/ebs"
+	amazonebsbuilder "github.com/Bourne-ID/packer/builder/amazon/ebs"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 type AmazonEBSAccTest struct{}

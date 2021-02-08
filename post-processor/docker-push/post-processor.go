@@ -7,13 +7,13 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/hashicorp/packer/builder/docker"
-	"github.com/hashicorp/packer/packer-plugin-sdk/common"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/config"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/interpolate"
-	dockerimport "github.com/hashicorp/packer/post-processor/docker-import"
-	dockertag "github.com/hashicorp/packer/post-processor/docker-tag"
+	"github.com/Bourne-ID/packer/builder/docker"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/common"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/config"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/interpolate"
+	dockerimport "github.com/Bourne-ID/packer/post-processor/docker-import"
+	dockertag "github.com/Bourne-ID/packer/post-processor/docker-tag"
 )
 
 const BuilderIdImport = "packer.post-processor.docker-import"

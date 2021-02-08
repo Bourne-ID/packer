@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/hashicorp/hcl/v2/hcldec"
-	vmwcommon "github.com/hashicorp/packer/builder/vmware/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/communicator"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep/commonsteps"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	vmwcommon "github.com/Bourne-ID/packer/builder/vmware/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/communicator"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep/commonsteps"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 // Builder implements packersdk.Builder and builds the actual VMware

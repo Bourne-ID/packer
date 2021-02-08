@@ -6,12 +6,12 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/useragent"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/useragent"
 
 	"github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2019-12-01/compute"
 	"github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2019-12-01/compute/computeapi"
 	"github.com/Azure/go-autorest/autorest"
-	version "github.com/hashicorp/packer/builder/azure/version"
+	version "github.com/Bourne-ID/packer/builder/azure/version"
 )
 
 type AzureClientSet interface {

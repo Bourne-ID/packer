@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/common"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/common"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 	"github.com/stretchr/testify/assert"
 )
 

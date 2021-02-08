@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	hclutils "github.com/hashicorp/packer/hcl2template"
+	hclutils "github.com/Bourne-ID/packer/hcl2template"
 	"github.com/posener/complete"
 )
 

@@ -12,13 +12,13 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
-	"github.com/hashicorp/packer/builder/amazon/common/awserrors"
-	"github.com/hashicorp/packer/packer-plugin-sdk/communicator"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/random"
-	"github.com/hashicorp/packer/packer-plugin-sdk/retry"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/interpolate"
+	"github.com/Bourne-ID/packer/builder/amazon/common/awserrors"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/communicator"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/random"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/retry"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/interpolate"
 )
 
 type EC2BlockDeviceMappingsBuilder interface {

@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute"
-	"github.com/hashicorp/packer/builder/azure/common/constants"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/builder/azure/common/constants"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 func TestStepCaptureImageShouldFailIfCaptureFails(t *testing.T) {

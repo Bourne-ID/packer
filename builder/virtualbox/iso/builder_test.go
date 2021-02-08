@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/packer/builder/virtualbox/common"
-	packercommon "github.com/hashicorp/packer/packer-plugin-sdk/common"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/builder/virtualbox/common"
+	packercommon "github.com/Bourne-ID/packer/packer-plugin-sdk/common"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func testConfig() map[string]interface{} {

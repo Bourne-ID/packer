@@ -3,7 +3,7 @@ package iso
 
 import (
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/hashicorp/packer/builder/vsphere/common"
+	"github.com/Bourne-ID/packer/builder/vsphere/common"
 	"github.com/zclconf/go-cty/cty"
 )
 

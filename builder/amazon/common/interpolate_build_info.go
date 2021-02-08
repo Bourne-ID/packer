@@ -3,8 +3,8 @@ package common
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	"github.com/hashicorp/packer/packer-plugin-sdk/packerbuilderdata"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/packerbuilderdata"
 )
 
 type BuildInfoTemplate struct {

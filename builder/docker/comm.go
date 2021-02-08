@@ -3,7 +3,7 @@ package docker
 import (
 	"log"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 func commHost(host string) func(multistep.StateBag) (string, error) {

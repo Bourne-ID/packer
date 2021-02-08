@@ -5,9 +5,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/packer/builder/docker"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	dockerimport "github.com/hashicorp/packer/post-processor/docker-import"
+	"github.com/Bourne-ID/packer/builder/docker"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	dockerimport "github.com/Bourne-ID/packer/post-processor/docker-import"
 )
 
 func testUi() *packersdk.BasicUi {

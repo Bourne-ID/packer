@@ -5,10 +5,10 @@ import (
 	"context"
 	"testing"
 
-	azcommon "github.com/hashicorp/packer/builder/azure/common"
-	"github.com/hashicorp/packer/builder/azure/common/constants"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	azcommon "github.com/Bourne-ID/packer/builder/azure/common"
+	"github.com/Bourne-ID/packer/builder/azure/common/constants"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func TestNewStepCertificateInKeyVault(t *testing.T) {

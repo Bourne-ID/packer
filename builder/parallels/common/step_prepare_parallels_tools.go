@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 // StepPrepareParallelsTools is a step that prepares parameters related

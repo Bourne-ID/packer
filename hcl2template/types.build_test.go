@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	. "github.com/hashicorp/packer/hcl2template/internal"
-	"github.com/hashicorp/packer/packer"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	. "github.com/Bourne-ID/packer/hcl2template/internal"
+	"github.com/Bourne-ID/packer/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func TestParse_build(t *testing.T) {

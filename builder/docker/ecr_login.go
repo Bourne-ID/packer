@@ -11,7 +11,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ecr"
-	"github.com/hashicorp/packer/builder/amazon/common"
+	"github.com/Bourne-ID/packer/builder/amazon/common"
 )
 
 type AwsAccessConfig struct {

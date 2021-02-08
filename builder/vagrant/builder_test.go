@@ -3,7 +3,7 @@ package vagrant
 import (
 	"testing"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func TestBuilder_ImplementsBuilder(t *testing.T) {

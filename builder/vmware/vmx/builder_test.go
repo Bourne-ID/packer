@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func TestBuilderPrepare_FloppyFiles(t *testing.T) {

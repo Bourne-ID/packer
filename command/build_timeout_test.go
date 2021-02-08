@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hashicorp/packer/builder/file"
-	"github.com/hashicorp/packer/packer"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	shell_local "github.com/hashicorp/packer/provisioner/shell-local"
-	"github.com/hashicorp/packer/provisioner/sleep"
+	"github.com/Bourne-ID/packer/builder/file"
+	"github.com/Bourne-ID/packer/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	shell_local "github.com/Bourne-ID/packer/provisioner/shell-local"
+	"github.com/Bourne-ID/packer/provisioner/sleep"
 )
 
 // testCoreConfigBuilder creates a packer CoreConfig that has a file builder

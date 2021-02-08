@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	parallelscommon "github.com/hashicorp/packer/builder/parallels/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	parallelscommon "github.com/Bourne-ID/packer/builder/parallels/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 // This step creates the virtual disk that will be used as the

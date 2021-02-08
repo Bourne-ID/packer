@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/dylanmei/winrmtest"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 const PAYLOAD = "stuff"

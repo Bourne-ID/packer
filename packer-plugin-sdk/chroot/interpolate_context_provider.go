@@ -1,6 +1,6 @@
 package chroot
 
-import "github.com/hashicorp/packer/packer-plugin-sdk/template/interpolate"
+import "github.com/Bourne-ID/packer/packer-plugin-sdk/template/interpolate"
 
 type interpolateContextProvider interface {
 	GetContext() interpolate.Context

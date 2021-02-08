@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/Azure/go-autorest/autorest/to"
-	"github.com/hashicorp/packer/builder/azure/common/client"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/builder/azure/common/client"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 // StepResolvePlatformImageVersion resolves the exact PIR version when the version is 'latest'

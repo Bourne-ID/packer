@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/packer/builder/vsphere/common"
-	"github.com/hashicorp/packer/builder/vsphere/driver"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/builder/vsphere/common"
+	"github.com/Bourne-ID/packer/builder/vsphere/driver"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func NewVMName() string {

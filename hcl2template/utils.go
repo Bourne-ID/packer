@@ -9,8 +9,8 @@ import (
 
 	"github.com/gobwas/glob"
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/packer/hcl2template/repl"
-	hcl2shim "github.com/hashicorp/packer/hcl2template/shim"
+	"github.com/Bourne-ID/packer/hcl2template/repl"
+	hcl2shim "github.com/Bourne-ID/packer/hcl2template/shim"
 	"github.com/zclconf/go-cty/cty"
 )
 

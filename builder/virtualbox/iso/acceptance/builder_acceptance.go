@@ -9,10 +9,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hashicorp/packer/builder/virtualbox/iso"
+	"github.com/Bourne-ID/packer/builder/virtualbox/iso"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/acctest/testutils"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/acctest/testutils"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 type VirtualBoxISOAccTest struct{}

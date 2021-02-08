@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/rpc"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 	"github.com/ugorji/go/codec"
 )
 

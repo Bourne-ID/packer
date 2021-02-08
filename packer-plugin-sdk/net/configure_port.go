@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/filelock"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/retry"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/filelock"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/retry"
 )
 
 var _ net.Listener = &Listener{}

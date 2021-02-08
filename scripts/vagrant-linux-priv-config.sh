@@ -15,6 +15,6 @@ apt-get install -y bzr \
 	zip
 
 # Ensure we cd into the working directory on login
-if ! grep "cd /opt/gopath/src/github.com/hashicorp/packer" /home/vagrant/.profile ; then
-	echo 'cd /opt/gopath/src/github.com/hashicorp/packer' >> /home/vagrant/.profile
+if ! grep "cd /opt/gopath/src/github.com/Bourne-ID/packer" /home/vagrant/.profile ; then
+	echo 'cd /opt/gopath/src/github.com/Bourne-ID/packer' >> /home/vagrant/.profile
 fi

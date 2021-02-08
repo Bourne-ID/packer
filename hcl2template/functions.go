@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/go-cty-funcs/uuid"
 	"github.com/hashicorp/hcl/v2/ext/tryfunc"
 	"github.com/hashicorp/hcl/v2/ext/typeexpr"
-	pkrfunction "github.com/hashicorp/packer/hcl2template/function"
+	pkrfunction "github.com/Bourne-ID/packer/hcl2template/function"
 	ctyyaml "github.com/zclconf/go-cty-yaml"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"

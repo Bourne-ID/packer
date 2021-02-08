@@ -6,11 +6,11 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2/hcldec"
-	vboxcommon "github.com/hashicorp/packer/builder/virtualbox/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/communicator"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep/commonsteps"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	vboxcommon "github.com/Bourne-ID/packer/builder/virtualbox/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/communicator"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep/commonsteps"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 // Builder implements packersdk.Builder and builds the actual VirtualBox

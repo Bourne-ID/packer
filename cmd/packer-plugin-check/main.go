@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer/plugin"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer/plugin"
 )
 
 const packerPluginCheck = "packer-plugin-check"

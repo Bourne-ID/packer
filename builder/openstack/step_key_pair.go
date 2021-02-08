@@ -10,10 +10,10 @@ import (
 	"runtime"
 
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/keypairs"
-	"github.com/hashicorp/packer/packer-plugin-sdk/communicator"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/tmp"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/communicator"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/tmp"
 	"golang.org/x/crypto/ssh"
 )
 
@@ -122,7 +122,7 @@ func (s *StepKeyPair) Run(ctx context.Context, state multistep.StateBag) multist
 	return multistep.ActionContinue
 }
 
-// Work around for https://github.com/hashicorp/packer/issues/2526
+// Work around for https://github.com/Bourne-ID/packer/issues/2526
 func berToDer(ber []byte, ui packersdk.Ui) []byte {
 	// Check if x/crypto/ssh can parse the key
 	_, err := ssh.ParsePrivateKey(ber)

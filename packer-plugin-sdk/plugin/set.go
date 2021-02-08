@@ -8,9 +8,9 @@ import (
 	"os"
 	"sort"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	pluginVersion "github.com/hashicorp/packer/packer-plugin-sdk/version"
-	"github.com/hashicorp/packer/version"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	pluginVersion "github.com/Bourne-ID/packer/packer-plugin-sdk/version"
+	"github.com/Bourne-ID/packer/version"
 )
 
 // Set is a plugin set. It's API is meant to be very close to what is returned

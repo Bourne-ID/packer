@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/common"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	sl "github.com/hashicorp/packer/packer-plugin-sdk/shell-local"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/interpolate"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/common"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	sl "github.com/Bourne-ID/packer/packer-plugin-sdk/shell-local"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/interpolate"
 )
 
 func RunLocalCommands(commands []string, wrappedCommand common.CommandWrapper, ictx interpolate.Context, ui packersdk.Ui) error {

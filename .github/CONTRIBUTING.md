@@ -75,23 +75,23 @@ adjust them for Windows or other shells.
 The instructions below are for go 1.7. or later.
 
 1. Download the Packer source (and its dependencies) by running
-   `go get github.com/hashicorp/packer`. This will download the Packer source to
-   `$GOPATH/src/github.com/hashicorp/packer`.
+   `go get github.com/Bourne-ID/packer`. This will download the Packer source to
+   `$GOPATH/src/github.com/Bourne-ID/packer`.
 
-2. When working on Packer, first `cd $GOPATH/src/github.com/hashicorp/packer`
+2. When working on Packer, first `cd $GOPATH/src/github.com/Bourne-ID/packer`
    so you can run `make` and easily access other files. Run `make help` to get
    information about make targets.
 
 3. Make your changes to the Packer source. You can run `make` in
-   `$GOPATH/src/github.com/hashicorp/packer` to run tests and build the Packer
+   `$GOPATH/src/github.com/Bourne-ID/packer` to run tests and build the Packer
    binary. Any compilation errors will be shown when the binaries are
    rebuilding. If you don't have `make` you can simply run
    `go build -o bin/packer .` from the project root.
 
 4. After running building Packer successfully, use
-   `$GOPATH/src/github.com/hashicorp/packer/bin/packer` to build a machine and
+   `$GOPATH/src/github.com/Bourne-ID/packer/bin/packer` to build a machine and
    verify your changes work. For instance:
-   `$GOPATH/src/github.com/hashicorp/packer/bin/packer build template.json`.
+   `$GOPATH/src/github.com/Bourne-ID/packer/bin/packer build template.json`.
 
 5. If everything works well and the tests pass, run `go fmt` on your code before
    submitting a pull-request.
@@ -118,7 +118,7 @@ go build -o bin/packer.exe
 
 Thank you for contributing! When you are ready to open a pull-request, you will
 need to [fork
-Packer](https://github.com/hashicorp/packer#fork-destination-box), push your
+Packer](https://github.com/Bourne-ID/packer#fork-destination-box), push your
 changes to your fork, and then open a pull-request.
 
 For example, my github username is `cbednarski`, so I would do the following:
@@ -217,7 +217,7 @@ project. After following the steps in "Setting up Go to work on Packer":
 
 1. Navigate to the code:
 
-   `cd $GOPATH/src/github.com/hashicorp/packer`
+   `cd $GOPATH/src/github.com/Bourne-ID/packer`
 
 2. Add the remote by running:
 
@@ -259,8 +259,8 @@ does not attempt to track the latest version for each dependency.
 #### Code generation
 
 Packer relies on `go generate` to generate a [peg parser for boot
-commands](https://github.com/hashicorp/packer/blob/master/packer-plugin-sdk/bootcommand/boot_command.go),
-[docs](https://github.com/hashicorp/packer/blob/master/website/pages/partials/builder/amazon/chroot/_Config-not-required.mdx)
+commands](https://github.com/Bourne-ID/packer/blob/master/packer-plugin-sdk/bootcommand/boot_command.go),
+[docs](https://github.com/Bourne-ID/packer/blob/master/website/pages/partials/builder/amazon/chroot/_Config-not-required.mdx)
 and HCL2's bridging code. Packer's testing suite will run `make check-generate`
 to check that all the generated files Packer needs are what they should be.
 `make generate` re-generates all these file and can take a while depending on
@@ -462,8 +462,8 @@ The following example has been adapted from a shell-local provisioner test:
 
 ```
 import (
-  "github.com/hashicorp/packer/packer-plugin-sdk/acctest/provisioneracc"
-  "github.com/hashicorp/packer/packer-plugin-sdk/acctest/testutils"
+  "github.com/Bourne-ID/packer/packer-plugin-sdk/acctest/provisioneracc"
+  "github.com/Bourne-ID/packer/packer-plugin-sdk/acctest/testutils"
 )
 
 // ...

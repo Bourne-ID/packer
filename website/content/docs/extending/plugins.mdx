@@ -136,10 +136,10 @@ than the following two packages, you're encouraged to use whatever packages you
 want. Because plugins are their own processes, there is no danger of colliding
 dependencies.
 
-- `github.com/hashicorp/packer` - Contains all the interfaces that you have
+- `github.com/Bourne-ID/packer` - Contains all the interfaces that you have
   to implement for any given plugin.
 
-- `github.com/hashicorp/packer/packer/plugin` - Contains the code to serve
+- `github.com/Bourne-ID/packer/packer/plugin` - Contains the code to serve
   the plugin. This handles all the inter-process communication stuff.
 
 There are two steps involved in creating a plugin:
@@ -159,7 +159,7 @@ binary as it will allow to add more that one plugin per binary.
 
 ```go
 import (
-  "github.com/hashicorp/packer/packer-plugin-sdk/plugin"
+  "github.com/Bourne-ID/packer/packer-plugin-sdk/plugin"
 )
 
 // Assume this implements packer.Builder
@@ -200,7 +200,7 @@ is named `packer-plugin-my`, this would make the following parts available:
 
 ```go
 import (
-  "github.com/hashicorp/packer/packer/plugin"
+  "github.com/Bourne-ID/packer/packer/plugin"
 )
 
 // Assume this implements packer.Builder

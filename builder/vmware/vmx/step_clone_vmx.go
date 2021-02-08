@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"regexp"
 
-	vmwcommon "github.com/hashicorp/packer/builder/vmware/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/tmp"
+	vmwcommon "github.com/Bourne-ID/packer/builder/vmware/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/tmp"
 )
 
 // StepCloneVMX takes a VMX file and clones the VM into the output directory.

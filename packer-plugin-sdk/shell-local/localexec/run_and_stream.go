@@ -10,8 +10,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/iochan"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/iochan"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 // RunAndStream allows you to run a local command and stream output to the UI.

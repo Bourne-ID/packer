@@ -17,7 +17,7 @@ EXECUTABLE_FILES=$(shell find . -type f -executable | egrep -v '^\./(website/[ve
 # Get the git commit
 GIT_DIRTY=$(shell test -n "`git status --porcelain`" && echo "+CHANGES" || true)
 GIT_COMMIT=$(shell git rev-parse --short HEAD)
-GIT_IMPORT=github.com/hashicorp/packer/version
+GIT_IMPORT=github.com/Bourne-ID/packer/version
 UNAME_S := $(shell uname -s)
 LDFLAGS=-s -w
 GOLDFLAGS=-X $(GIT_IMPORT).GitCommit=$(GIT_COMMIT)$(GIT_DIRTY) $(LDFLAGS)

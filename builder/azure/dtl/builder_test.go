@@ -3,7 +3,7 @@ package dtl
 import (
 	"testing"
 
-	"github.com/hashicorp/packer/builder/azure/common/constants"
+	"github.com/Bourne-ID/packer/builder/azure/common/constants"
 )
 
 func TestStateBagShouldBePopulatedExpectedValues(t *testing.T) {

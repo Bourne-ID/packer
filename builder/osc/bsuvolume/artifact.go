@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/antihax/optional"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 	"github.com/outscale/osc-sdk-go/osc"
 )
 

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/packer/packer-plugin-sdk/packerbuilderdata"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/packerbuilderdata"
 )
 
 func TestFuncBuildName(t *testing.T) {

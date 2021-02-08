@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/tmp"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/tmp"
 )
 
 const (

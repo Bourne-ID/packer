@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/hashicorp/packer/builder/docker"
-	builderT "github.com/hashicorp/packer/packer-plugin-sdk/acctest"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/provisioner/file"
+	"github.com/Bourne-ID/packer/builder/docker"
+	builderT "github.com/Bourne-ID/packer/packer-plugin-sdk/acctest"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/provisioner/file"
 )
 
 func TestProvisioner_Impl(t *testing.T) {

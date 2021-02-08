@@ -4,9 +4,9 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/hashicorp/packer/command/enumflag"
-	kvflag "github.com/hashicorp/packer/command/flag-kv"
-	sliceflag "github.com/hashicorp/packer/command/flag-slice"
+	"github.com/Bourne-ID/packer/command/enumflag"
+	kvflag "github.com/Bourne-ID/packer/command/flag-kv"
+	sliceflag "github.com/Bourne-ID/packer/command/flag-slice"
 )
 
 //go:generate enumer -type configType -trimprefix ConfigType -transform snake

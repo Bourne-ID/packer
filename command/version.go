@@ -3,7 +3,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/hashicorp/packer/version"
+	"github.com/Bourne-ID/packer/version"
 )
 
 // VersionCommand is a Command implementation prints the version.

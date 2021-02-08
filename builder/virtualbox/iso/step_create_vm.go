@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	vboxcommon "github.com/hashicorp/packer/builder/virtualbox/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	vboxcommon "github.com/Bourne-ID/packer/builder/virtualbox/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 // This step creates the actual virtual machine.

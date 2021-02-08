@@ -33,7 +33,7 @@ export default function CommunityPage() {
           {
             header: 'Bug Tracker',
             body:
-              '[Issue tracker on GitHub](https://github.com/hashicorp/packer/issues). Please only use this for reporting bugs. For general help, please use the Community Forum.',
+              '[Issue tracker on GitHub](https://github.com/Bourne-ID/packer/issues). Please only use this for reporting bugs. For general help, please use the Community Forum.',
           },
           {
             header: 'Training',

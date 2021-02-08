@@ -9,8 +9,8 @@ import (
 	"time"
 
 	checkpoint "github.com/hashicorp/go-checkpoint"
-	"github.com/hashicorp/packer/packer-plugin-sdk/pathing"
-	packerVersion "github.com/hashicorp/packer/version"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/pathing"
+	packerVersion "github.com/Bourne-ID/packer/version"
 )
 
 const TelemetryVersion string = "beta/packer/5"

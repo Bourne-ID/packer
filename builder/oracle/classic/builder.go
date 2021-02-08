@@ -11,11 +11,11 @@ import (
 	"github.com/hashicorp/go-oracle-terraform/compute"
 	"github.com/hashicorp/go-oracle-terraform/opc"
 	"github.com/hashicorp/hcl/v2/hcldec"
-	ocommon "github.com/hashicorp/packer/builder/oracle/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/communicator"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep/commonsteps"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	ocommon "github.com/Bourne-ID/packer/builder/oracle/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/communicator"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep/commonsteps"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 // BuilderId uniquely identifies the builder

@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/chzyer/readline"
-	"github.com/hashicorp/packer/helper/wrappedreadline"
-	"github.com/hashicorp/packer/helper/wrappedstreams"
-	"github.com/hashicorp/packer/packer"
+	"github.com/Bourne-ID/packer/helper/wrappedreadline"
+	"github.com/Bourne-ID/packer/helper/wrappedstreams"
+	"github.com/Bourne-ID/packer/packer"
 	"github.com/posener/complete"
 )
 

@@ -2,7 +2,7 @@ package command
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/packer/packer"
+	"github.com/Bourne-ID/packer/packer"
 )
 
 // CoreWrapper wraps a packer.Core in order to have it's Initialize func return

@@ -18,7 +18,7 @@ Vagrant.configure(2) do |config|
 
 		vmCfg.vm.synced_folder ".", "/vagrant", disabled: true
 		vmCfg.vm.synced_folder '.',
-			'/opt/gopath/src/github.com/hashicorp/packer'
+			'/opt/gopath/src/github.com/Bourne-ID/packer'
 
 		vmCfg.vm.provision "shell",
 			privileged: true,
@@ -45,7 +45,7 @@ Vagrant.configure(2) do |config|
 
 		vmCfg.vm.synced_folder ".", "/vagrant", disabled: true
 		vmCfg.vm.synced_folder '.',
-			'/opt/gopath/src/github.com/hashicorp/packer',
+			'/opt/gopath/src/github.com/Bourne-ID/packer',
 			type: "nfs",
 			bsd__nfs_options: ['noatime']
 

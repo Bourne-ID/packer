@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/go-oracle-terraform/compute"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/uuid"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/uuid"
 )
 
 type stepCreateIPReservation struct{}

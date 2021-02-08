@@ -34,10 +34,10 @@ get_prs(){
     done | while read PR_NUM
     do
         if [[ -z "${GITHUB_TOKEN}" ]] || [[ -z "${GITHUB_USERNAME}" ]] ; then
-          out=$(curl -fsS "https://api.github.com/repos/hashicorp/packer/issues/${PR_NUM}" -o pull.json)
+          out=$(curl -fsS "https://api.github.com/repos/Bourne-ID/packer/issues/${PR_NUM}" -o pull.json)
         else
           # authenticated call
-          out=$(curl -u ${GITHUB_USERNAME}:${GITHUB_TOKEN} -fsS "https://api.github.com/repos/hashicorp/packer/issues/${PR_NUM}" -o pull.json)
+          out=$(curl -u ${GITHUB_USERNAME}:${GITHUB_TOKEN} -fsS "https://api.github.com/repos/Bourne-ID/packer/issues/${PR_NUM}" -o pull.json)
         fi
         exy="$?"
         if [ $exy -ne 0 ]; then
@@ -49,7 +49,7 @@ get_prs(){
             echo "Skipping PR ${PR_NUM}: labeled as tech debt, docs or website. (waiting a second so we don't get rate-limited...)"
             continue
         fi
-        echo "$(cat pull.json | python -m json.tool | jq '.title') - https://github.com/hashicorp/packer/pull/${PR_NUM}"
+        echo "$(cat pull.json | python -m json.tool | jq '.title') - https://github.com/Bourne-ID/packer/pull/${PR_NUM}"
     done
 }
 

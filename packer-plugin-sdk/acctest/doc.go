@@ -86,8 +86,8 @@ The following example has been adapted from a shell-local provisioner test:
 
 ```
 import (
-  "github.com/hashicorp/packer/packer-plugin-sdk/acctest/provisioneracc"
-  "github.com/hashicorp/packer/packer-plugin-sdk/acctest/testutils"
+  "github.com/Bourne-ID/packer/packer-plugin-sdk/acctest/provisioneracc"
+  "github.com/Bourne-ID/packer/packer-plugin-sdk/acctest/testutils"
 )
 
 // ...

@@ -78,7 +78,7 @@ echo "==> Building..."
 gox.exe `
   -os="${XC_OS}" `
   -arch="${XC_ARCH}" `
-  -ldflags "-X github.com/hashicorp/packer/version.GitCommit=${GIT_COMMIT}${GIT_DIRTY}" `
+  -ldflags "-X github.com/Bourne-ID/packer/version.GitCommit=${GIT_COMMIT}${GIT_DIRTY}" `
   -output "pkg/{{.OS}}_{{.Arch}}/packer" `
   .
 

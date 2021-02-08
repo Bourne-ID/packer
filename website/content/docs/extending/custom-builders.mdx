@@ -88,7 +88,7 @@ And `packer.Cache` is used to store files between multiple Packer runs, and is
 covered in more detail in the cache section below.
 
 Because builder runs are typically a complex set of many steps, the
-[multistep](https://github.com/hashicorp/packer/blob/master/helper/multistep)
+[multistep](https://github.com/Bourne-ID/packer/blob/master/helper/multistep)
 helper is recommended to bring order to the complexity. Multistep is a library
 which allows you to separate your logic into multiple distinct "steps" and
 string them together. It fully supports cancellation mid-step and so on. Please
@@ -137,7 +137,7 @@ about the artifact results, so it is important it never changes.
 
 Other than the builder ID, the rest should be self-explanatory by reading the
 [packer.Artifact interface
-documentation](https://github.com/hashicorp/packer/blob/master/packer/artifact.go).
+documentation](https://github.com/Bourne-ID/packer/blob/master/packer/artifact.go).
 
 ## Provisioning
 

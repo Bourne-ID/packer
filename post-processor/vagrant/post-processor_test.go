@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func testConfig() map[string]interface{} {

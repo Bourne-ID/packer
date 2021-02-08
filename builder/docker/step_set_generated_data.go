@@ -3,8 +3,8 @@ package docker
 import (
 	"context"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	"github.com/hashicorp/packer/packer-plugin-sdk/packerbuilderdata"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/packerbuilderdata"
 )
 
 type StepSetGeneratedData struct {

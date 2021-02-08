@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	builderT "github.com/hashicorp/packer/packer-plugin-sdk/acctest"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/tmp"
+	builderT "github.com/Bourne-ID/packer/packer-plugin-sdk/acctest"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/tmp"
 )
 
 const vmxTestTemplate string = `{"builders":[{%s}],"provisioners":[{%s}]}`

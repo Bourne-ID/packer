@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	"github.com/hashicorp/packer/packer-plugin-sdk/packerbuilderdata"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/packerbuilderdata"
 )
 
 func TestStepSetGeneratedData_Run(t *testing.T) {

@@ -3,9 +3,9 @@ package ebssurrogate
 import (
 	"testing"
 
-	"github.com/hashicorp/packer/builder/amazon/common"
+	"github.com/Bourne-ID/packer/builder/amazon/common"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func testConfig() map[string]interface{} {

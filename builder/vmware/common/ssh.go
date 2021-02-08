@@ -6,7 +6,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 func CommHost(config *SSHConfig) func(multistep.StateBag) (string, error) {

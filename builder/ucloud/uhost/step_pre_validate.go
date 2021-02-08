@@ -3,9 +3,9 @@ package uhost
 import (
 	"context"
 
-	ucloudcommon "github.com/hashicorp/packer/builder/ucloud/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	ucloudcommon "github.com/Bourne-ID/packer/builder/ucloud/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 type stepPreValidate struct {

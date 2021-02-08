@@ -3,9 +3,9 @@ package classic
 import (
 	"fmt"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/communicator"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/interpolate"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/communicator"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/interpolate"
 )
 
 const imageListDefault = "/oracle/public/OL_7.2_UEKR4_x86_64"

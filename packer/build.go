@@ -6,10 +6,10 @@ import (
 	"log"
 	"sync"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/common"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/packerbuilderdata"
-	"github.com/hashicorp/packer/version"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/common"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/packerbuilderdata"
+	"github.com/Bourne-ID/packer/version"
 )
 
 // A CoreBuild struct represents a single build job, the result of which should

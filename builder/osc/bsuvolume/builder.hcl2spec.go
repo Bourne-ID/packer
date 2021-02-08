@@ -3,7 +3,7 @@ package bsuvolume
 
 import (
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/hashicorp/packer/builder/osc/common"
+	"github.com/Bourne-ID/packer/builder/osc/common"
 	"github.com/zclconf/go-cty/cty"
 )
 

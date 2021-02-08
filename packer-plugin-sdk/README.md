@@ -2,7 +2,7 @@
 
 This SDK enables building Packer plugins. This allows Packer's users to use both the officially-supported builders, provisioners, and post-processors, and custom in-house solutions.
 
-Packer itself is a tool for building identical machine images for multiple platforms from a single source configuration. You can find more about Packer on its [website](https://www.packer.io) and [its GitHub repository](https://github.com/hashicorp/packer).
+Packer itself is a tool for building identical machine images for multiple platforms from a single source configuration. You can find more about Packer on its [website](https://www.packer.io) and [its GitHub repository](https://github.com/Bourne-ID/packer).
 
 ## Packer CLI Compatibility
 
@@ -51,8 +51,8 @@ The Packer Plugin SDK is a [Go module](https://github.com/golang/go/wiki/Modules
 
 ## Contributing
 
-See [`.github/CONTRIBUTING.md`](https://github.com/hashicorp/packer-plugin-sdk/blob/master/.github/CONTRIBUTING.md)
+See [`.github/CONTRIBUTING.md`](https://github.com/Bourne-ID/packer-plugin-sdk/blob/master/.github/CONTRIBUTING.md)
 
 ## License
 
-[Mozilla Public License v2.0](https://github.com/hashicorp/Packer-plugin-sdk/blob/master/LICENSE)
+[Mozilla Public License v2.0](https://github.com/Bourne-ID/packer-plugin-sdk/blob/master/LICENSE)

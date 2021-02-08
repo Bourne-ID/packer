@@ -11,7 +11,7 @@ export default function PackerSubnav() {
         url: '/',
       }}
       ctaLinks={[
-        { text: 'GitHub', url: 'https://www.github.com/hashicorp/packer' },
+        { text: 'GitHub', url: 'https://www.github.com/Bourne-ID/packer' },
         { text: 'Download', url: '/downloads' },
       ]}
       currentPath={router.pathname}

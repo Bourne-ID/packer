@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 	"github.com/ucloud/ucloud-sdk-go/ucloud"
 )
 

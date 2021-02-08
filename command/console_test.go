@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/packer/hcl2template"
-	"github.com/hashicorp/packer/packer"
+	"github.com/Bourne-ID/packer/hcl2template"
+	"github.com/Bourne-ID/packer/packer"
 	"github.com/stretchr/testify/assert"
 )
 

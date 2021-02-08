@@ -18,13 +18,13 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	"github.com/exoscale/egoscale"
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/hashicorp/packer/builder/file"
-	"github.com/hashicorp/packer/builder/qemu"
-	"github.com/hashicorp/packer/packer-plugin-sdk/common"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/config"
-	"github.com/hashicorp/packer/post-processor/artifice"
-	"github.com/hashicorp/packer/post-processor/exoscale-import/version"
+	"github.com/Bourne-ID/packer/builder/file"
+	"github.com/Bourne-ID/packer/builder/qemu"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/common"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/config"
+	"github.com/Bourne-ID/packer/post-processor/artifice"
+	"github.com/Bourne-ID/packer/post-processor/exoscale-import/version"
 )
 
 var (

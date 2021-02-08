@@ -4,10 +4,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/packer/builder/vsphere/common"
-	commonT "github.com/hashicorp/packer/builder/vsphere/common/testing"
-	builderT "github.com/hashicorp/packer/packer-plugin-sdk/acctest"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/builder/vsphere/common"
+	commonT "github.com/Bourne-ID/packer/builder/vsphere/common/testing"
+	builderT "github.com/Bourne-ID/packer/packer-plugin-sdk/acctest"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 	"github.com/vmware/govmomi/vim25/types"
 )
 

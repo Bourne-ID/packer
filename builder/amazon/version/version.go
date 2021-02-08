@@ -1,8 +1,8 @@
 package version
 
 import (
-	"github.com/hashicorp/packer/packer-plugin-sdk/version"
-	packerVersion "github.com/hashicorp/packer/version"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/version"
+	packerVersion "github.com/Bourne-ID/packer/version"
 )
 
 var AWSPluginVersion *version.PluginVersion

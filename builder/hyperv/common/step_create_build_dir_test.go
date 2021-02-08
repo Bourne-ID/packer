@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 func TestStepCreateBuildDir_imp(t *testing.T) {

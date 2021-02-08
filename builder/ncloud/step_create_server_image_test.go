@@ -7,7 +7,7 @@ import (
 
 	"github.com/NaverCloudPlatform/ncloud-sdk-go-v2/services/server"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
 )
 
 func TestStepCreateServerImageShouldFailIfOperationCreateServerImageFails(t *testing.T) {

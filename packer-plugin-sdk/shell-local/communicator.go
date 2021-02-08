@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 type Communicator struct {

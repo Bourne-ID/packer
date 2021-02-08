@@ -19,13 +19,13 @@ import (
 	"google.golang.org/api/storage/v1"
 
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/hashicorp/packer/builder/googlecompute"
-	"github.com/hashicorp/packer/packer-plugin-sdk/common"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/config"
-	"github.com/hashicorp/packer/packer-plugin-sdk/template/interpolate"
-	"github.com/hashicorp/packer/post-processor/artifice"
-	"github.com/hashicorp/packer/post-processor/compress"
+	"github.com/Bourne-ID/packer/builder/googlecompute"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/common"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/config"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/template/interpolate"
+	"github.com/Bourne-ID/packer/post-processor/artifice"
+	"github.com/Bourne-ID/packer/post-processor/compress"
 )
 
 type Config struct {

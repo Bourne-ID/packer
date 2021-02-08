@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 type StepWaitForRackConnect struct {

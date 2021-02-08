@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	pluginVersion "github.com/hashicorp/packer/packer-plugin-sdk/version"
-	"github.com/hashicorp/packer/version"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	pluginVersion "github.com/Bourne-ID/packer/packer-plugin-sdk/version"
+	"github.com/Bourne-ID/packer/version"
 )
 
 type MockBuilder struct {

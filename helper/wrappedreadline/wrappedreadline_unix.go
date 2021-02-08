@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/hashicorp/packer/helper/wrappedstreams"
+	"github.com/Bourne-ID/packer/helper/wrappedstreams"
 )
 
 // getWidth impl for Unix

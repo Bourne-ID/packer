@@ -3,7 +3,7 @@ package proxmoxiso
 
 import (
 	"github.com/hashicorp/hcl/v2/hcldec"
-	proxmox "github.com/hashicorp/packer/builder/proxmox/common"
+	proxmox "github.com/Bourne-ID/packer/builder/proxmox/common"
 	"github.com/zclconf/go-cty/cty"
 )
 

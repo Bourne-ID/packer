@@ -3,7 +3,7 @@ package yandex
 import (
 	"testing"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/compute/v1"
 )

@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/common"
 )
 
 func TestCopyFile(t *testing.T) {

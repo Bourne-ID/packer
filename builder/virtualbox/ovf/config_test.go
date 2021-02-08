@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func testConfig(t *testing.T) map[string]interface{} {
@@ -112,7 +112,7 @@ func TestNewConfig_shutdown_timeout(t *testing.T) {
 }
 
 // TestChecksumFileNameMixedCaseBug reproduces Github issue #9049:
-//	https://github.com/hashicorp/packer/issues/9049
+//	https://github.com/Bourne-ID/packer/issues/9049
 func TestChecksumFileNameMixedCaseBug(t *testing.T) {
 	tt := []struct {
 		Name         string

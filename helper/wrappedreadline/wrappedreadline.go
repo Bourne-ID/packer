@@ -19,7 +19,7 @@ import (
 
 	"github.com/chzyer/readline"
 
-	"github.com/hashicorp/packer/helper/wrappedstreams"
+	"github.com/Bourne-ID/packer/helper/wrappedstreams"
 )
 
 // Override overrides the values in readline.Config that need to be

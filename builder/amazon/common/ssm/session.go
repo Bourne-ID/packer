@@ -12,10 +12,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/aws/aws-sdk-go/service/ssm/ssmiface"
-	"github.com/hashicorp/packer/builder/amazon/common/awserrors"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/retry"
-	"github.com/hashicorp/packer/packer-plugin-sdk/shell-local/localexec"
+	"github.com/Bourne-ID/packer/builder/amazon/common/awserrors"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/retry"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/shell-local/localexec"
 )
 
 type Session struct {

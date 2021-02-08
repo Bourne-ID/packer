@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	vmwcommon "github.com/hashicorp/packer/builder/vmware/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	vmwcommon "github.com/Bourne-ID/packer/builder/vmware/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 )
 
 func testState(t *testing.T) multistep.StateBag {

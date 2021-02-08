@@ -8,17 +8,17 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/hashicorp/packer/builder/amazon/ebs"
-	"github.com/hashicorp/packer/builder/file"
-	"github.com/hashicorp/packer/builder/null"
-	"github.com/hashicorp/packer/packer"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/post-processor/manifest"
-	shell_local_pp "github.com/hashicorp/packer/post-processor/shell-local"
-	filep "github.com/hashicorp/packer/provisioner/file"
-	"github.com/hashicorp/packer/provisioner/shell"
-	shell_local "github.com/hashicorp/packer/provisioner/shell-local"
-	"github.com/hashicorp/packer/version"
+	"github.com/Bourne-ID/packer/builder/amazon/ebs"
+	"github.com/Bourne-ID/packer/builder/file"
+	"github.com/Bourne-ID/packer/builder/null"
+	"github.com/Bourne-ID/packer/packer"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/post-processor/manifest"
+	shell_local_pp "github.com/Bourne-ID/packer/post-processor/shell-local"
+	filep "github.com/Bourne-ID/packer/provisioner/file"
+	"github.com/Bourne-ID/packer/provisioner/shell"
+	shell_local "github.com/Bourne-ID/packer/provisioner/shell-local"
+	"github.com/Bourne-ID/packer/version"
 )
 
 // HasExec reports whether the current system can start new processes

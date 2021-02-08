@@ -98,7 +98,7 @@ An example is shown below, showing only the post-processor configuration:
 ```json
 {
   "type": "docker-import",
-  "repository": "hashicorp/packer",
+  "repository": "Bourne-ID/packer",
   "tag": "0.7"
 }
 ```
@@ -108,7 +108,7 @@ An example is shown below, showing only the post-processor configuration:
 
 ```hcl
 post-processor "docker-import" {
-  repository = "hashicorp/packer"
+  repository = "Bourne-ID/packer"
   tag = "0.7"
 }
 ```
@@ -117,7 +117,7 @@ post-processor "docker-import" {
 </Tabs>
 
 This example would take the image created by the Docker builder and import it
-into the local Docker process with a name of `hashicorp/packer:0.7`.
+into the local Docker process with a name of `Bourne-ID/packer:0.7`.
 
 Following this, you can use the
 [docker-push](/docs/post-processors/docker-push) post-processor to push it

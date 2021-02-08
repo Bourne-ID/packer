@@ -2,18 +2,18 @@
 
 [![Build Status][circleci-badge]][circleci]
 [![Windows Build Status][appveyor-badge]][appveyor]
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/hashicorp/packer)](https://pkg.go.dev/github.com/hashicorp/packer)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/Bourne-ID/packer)](https://pkg.go.dev/github.com/Bourne-ID/packer)
 [![GoReportCard][report-badge]][report]
-[![codecov](https://codecov.io/gh/hashicorp/packer/branch/master/graph/badge.svg)](https://codecov.io/gh/hashicorp/packer)
+[![codecov](https://codecov.io/gh/Bourne-ID/packer/branch/master/graph/badge.svg)](https://codecov.io/gh/Bourne-ID/packer)
 
-[circleci-badge]: https://circleci.com/gh/hashicorp/packer.svg?style=svg
-[circleci]: https://app.circleci.com/pipelines/github/hashicorp/packer
+[circleci-badge]: https://circleci.com/gh/Bourne-ID/packer.svg?style=svg
+[circleci]: https://app.circleci.com/pipelines/github/Bourne-ID/packer
 [appveyor-badge]: https://ci.appveyor.com/api/projects/status/miavlgnp989e5obc/branch/master?svg=true
-[appveyor]: https://ci.appveyor.com/project/hashicorp/packer
-[godoc-badge]: https://godoc.org/github.com/hashicorp/packer?status.svg
-[godoc]: https://godoc.org/github.com/hashicorp/packer
-[report-badge]: https://goreportcard.com/badge/github.com/hashicorp/packer
-[report]: https://goreportcard.com/report/github.com/hashicorp/packer
+[appveyor]: https://ci.appveyor.com/project/Bourne-ID/packer
+[godoc-badge]: https://godoc.org/github.com/Bourne-ID/packer?status.svg
+[godoc]: https://godoc.org/github.com/Bourne-ID/packer
+[report-badge]: https://goreportcard.com/badge/github.com/Bourne-ID/packer
+[report]: https://goreportcard.com/report/github.com/Bourne-ID/packer
 
 * Website: https://www.packer.io
 * IRC: `#packer-tool` on Freenode
@@ -43,7 +43,7 @@ key points.
 First, [download a pre-built Packer
 binary](https://www.packer.io/downloads.html) for your operating system or
 [compile Packer
-yourself](https://github.com/hashicorp/packer/blob/master/.github/CONTRIBUTING.md#setting-up-go-to-work-on-packer).
+yourself](https://github.com/Bourne-ID/packer/blob/master/.github/CONTRIBUTING.md#setting-up-go-to-work-on-packer).
 
 After Packer is installed, create your first template, which tells Packer
 what platforms to build images for and how you want to build them. In our
@@ -92,7 +92,7 @@ https://www.packer.io/docs
 ## Developing Packer
 
 See
-[CONTRIBUTING.md](https://github.com/hashicorp/packer/blob/master/.github/CONTRIBUTING.md)
+[CONTRIBUTING.md](https://github.com/Bourne-ID/packer/blob/master/.github/CONTRIBUTING.md)
 for best practices and instructions on setting up your development environment
 to work on Packer.
 
@@ -111,4 +111,4 @@ What does **unmaintained** mean?
 If anyone form them community is interested in maintaining a community
 supported plugin, please feel free to submit contributions via a pull-
 request for review; reviews are generally prioritized over feature work
-when possible. For a list of open plugin issues and pending feature requests see the [Packer Issue Tracker](https://github.com/hashicorp/packer/issues/).
+when possible. For a list of open plugin issues and pending feature requests see the [Packer Issue Tracker](https://github.com/Bourne-ID/packer/issues/).

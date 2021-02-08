@@ -8,8 +8,8 @@ import (
 	"strings"
 	"text/template"
 
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
-	"github.com/hashicorp/packer/packer-plugin-sdk/uuid"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/uuid"
 )
 
 type ElevatedProvisioner interface {

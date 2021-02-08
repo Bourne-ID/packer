@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/hashicorp/packer/packer-plugin-sdk/communicator"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/communicator"
 )
 
 type MockTunnelDriver struct {

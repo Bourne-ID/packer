@@ -3,9 +3,9 @@ package proxmoxclone
 import (
 	proxmoxapi "github.com/Telmate/proxmox-api-go/proxmox"
 	"github.com/hashicorp/hcl/v2/hcldec"
-	proxmox "github.com/hashicorp/packer/builder/proxmox/common"
-	"github.com/hashicorp/packer/packer-plugin-sdk/multistep"
-	packersdk "github.com/hashicorp/packer/packer-plugin-sdk/packer"
+	proxmox "github.com/Bourne-ID/packer/builder/proxmox/common"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/multistep"
+	packersdk "github.com/Bourne-ID/packer/packer-plugin-sdk/packer"
 
 	"context"
 	"fmt"

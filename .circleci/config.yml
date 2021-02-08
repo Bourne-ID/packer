@@ -39,7 +39,7 @@ commands:
         type: string
     steps:
       - checkout
-      - run: GOOS=<< parameters.GOOS >> go build -ldflags="-s -w -X github.com/hashicorp/packer/version.GitCommit=${CIRCLE_SHA1}" -o ./pkg/packer_<< parameters.GOOS >>_$(go env GOARCH) .
+      - run: GOOS=<< parameters.GOOS >> go build -ldflags="-s -w -X github.com/Bourne-ID/packer/version.GitCommit=${CIRCLE_SHA1}" -o ./pkg/packer_<< parameters.GOOS >>_$(go env GOARCH) .
       - run: zip ./pkg/packer_<< parameters.GOOS >>_$(go env GOARCH).zip ./pkg/packer_<< parameters.GOOS >>_$(go env GOARCH)
       - run: rm ./pkg/packer_<< parameters.GOOS >>_$(go env GOARCH)
       - persist_to_workspace:
@@ -53,7 +53,7 @@ jobs:
   test-linux:
     executor: golang
     resource_class: large
-    working_directory: /go/src/github.com/hashicorp/packer
+    working_directory: /go/src/github.com/Bourne-ID/packer
     steps:
       - checkout
       - run: TESTARGS="-coverprofile=coverage.txt  -covermode=atomic" make ci
@@ -61,7 +61,7 @@ jobs:
           file: coverage.txt
   test-darwin:
     executor: darwin
-    working_directory: ~/go/src/github.com/hashicorp/packer
+    working_directory: ~/go/src/github.com/Bourne-ID/packer
     environment:
       GO111MODULE: "off"
     steps:
@@ -90,7 +90,7 @@ jobs:
           no_output_timeout: 30m
   check-vendor-vs-mod:
     executor: golang
-    working_directory: /go/src/github.com/hashicorp/packer
+    working_directory: /go/src/github.com/Bourne-ID/packer
     environment:
       GO111MODULE: "off"
     steps:
@@ -104,7 +104,7 @@ jobs:
       - run: make fmt-check
   check-generate:
     executor: golang
-    working_directory: /go/src/github.com/hashicorp/packer
+    working_directory: /go/src/github.com/Bourne-ID/packer
     steps:
       - checkout
       - run: make generate-check
@@ -115,31 +115,31 @@ jobs:
           GOOS: linux
   build_windows:
     executor: golang
-    working_directory: /go/src/github.com/hashicorp/packer
+    working_directory: /go/src/github.com/Bourne-ID/packer
     steps:
       - build-and-persist-packer-binary:
           GOOS: windows
   build_darwin:
     executor: golang
-    working_directory: /go/src/github.com/hashicorp/packer
+    working_directory: /go/src/github.com/Bourne-ID/packer
     steps:
       - build-and-persist-packer-binary:
           GOOS: darwin
   build_freebsd:
     executor: golang
-    working_directory: /go/src/github.com/hashicorp/packer
+    working_directory: /go/src/github.com/Bourne-ID/packer
     steps:
       - build-and-persist-packer-binary:
           GOOS: freebsd
   build_solaris:
     executor: golang
-    working_directory: /go/src/github.com/hashicorp/packer
+    working_directory: /go/src/github.com/Bourne-ID/packer
     steps:
       - build-and-persist-packer-binary:
           GOOS: solaris
   build_openbsd:
     executor: golang
-    working_directory: /go/src/github.com/hashicorp/packer
+    working_directory: /go/src/github.com/Bourne-ID/packer
     steps:
       - build-and-persist-packer-binary:
           GOOS: openbsd
@@ -163,14 +163,14 @@ jobs:
           command: |
             IMAGE_TAG=$(cat website/Dockerfile website/package-lock.json | sha256sum | awk '{print $1;}')
             echo "Using $IMAGE_TAG"
-            if curl https://hub.docker.com/v2/repositories/hashicorp/packer-website/tags/$IMAGE_TAG -fsL > /dev/null; then
+            if curl https://hub.docker.com/v2/repositories/Bourne-ID/packer-website/tags/$IMAGE_TAG -fsL > /dev/null; then
                 echo "Dependencies have not changed, not building a new website docker image."
             else
                 cd website/
                 docker login -u $WEBSITE_DOCKER_USER -p $WEBSITE_DOCKER_PASS
-                docker build -t hashicorp/packer-website:$IMAGE_TAG .
-                docker tag hashicorp/packer-website:$IMAGE_TAG hashicorp/packer-website:latest
-                docker push hashicorp/packer-website
+                docker build -t Bourne-ID/packer-website:$IMAGE_TAG .
+                docker tag Bourne-ID/packer-website:$IMAGE_TAG Bourne-ID/packer-website:latest
+                docker push Bourne-ID/packer-website
             fi
   algolia-index:
     docker:
@@ -180,7 +180,7 @@ jobs:
       - run:
           name: Push content to Algolia Index
           command: |
-            if  [ "$CIRCLE_REPOSITORY_URL" != "git@github.com:hashicorp/packer.git" ]; then
+            if  [ "$CIRCLE_REPOSITORY_URL" != "git@github.com:Bourne-ID/packer.git" ]; then
               echo "Not Packer OSS Repo, not indexing Algolia"
               exit 0
             fi

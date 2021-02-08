@@ -8,7 +8,7 @@ using Joyent's Triton Compute and Storage (Manta) APIs.
 The Triton Go SDK is used in the following open source projects.
 
 - [Consul](https://www.consul.io/docs/agent/cloud-auto-join.html#joyent-triton)
-- [Packer](http://github.com/hashicorp/packer)
+- [Packer](http://github.com/Bourne-ID/packer)
 - [Vault](http://github.com/hashicorp/vault)
 - [Terraform](http://github.com/hashicorp/terraform)
 - [Terraform Triton Provider](https://github.com/terraform-providers/terraform-provider-triton)

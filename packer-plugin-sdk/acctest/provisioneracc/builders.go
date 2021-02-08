@@ -7,7 +7,7 @@ acctest package.
 package provisioneracc
 
 import (
-	"github.com/hashicorp/packer/packer-plugin-sdk/acctest/testutils"
+	"github.com/Bourne-ID/packer/packer-plugin-sdk/acctest/testutils"
 )
 
 // Variables stored in this file represent implementations of the BuilderFixture
