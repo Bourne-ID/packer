@@ -4,6 +4,8 @@ import (
 	"github.com/Azure/go-ntlmssp"
 	"github.com/masterzen/winrm/soap"
 	"net"
+	"net/http"
+	"net/url"
 )
 
 // ClientNTLM provides a transport via NTLMv2
@@ -23,11 +25,18 @@ func (c ClientNTLM) Post(client *Client, request *soap.SoapMessage) (string, err
 	return c.clientRequest.Post(client, request)
 }
 
-
 func NewClientNTLMWithDial(dial func(network, addr string) (net.Conn, error)) *ClientNTLM {
 	return &ClientNTLM{
 		clientRequest{
-			dial:dial,
+			dial: dial,
+		},
+	}
+}
+
+func NewClientNTLMWithProxy(proxyfunc func(req *http.Request) (*url.URL, error)) *ClientNTLM {
+	return &ClientNTLM{
+		clientRequest{
+			proxyfunc: proxyfunc,
 		},
 	}
 }

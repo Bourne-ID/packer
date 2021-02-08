@@ -143,7 +143,12 @@ func (s *StepConnectWinRM) waitForWinRM(state multistep.StateBag, ctx context.Co
 			if err := setNoProxy(host, port); err != nil {
 				return nil, fmt.Errorf("Error setting no_proxy: %s", err)
 			}
-			s.Config.WinRMTransportDecorator = ProxyTransportDecorator
+			if s.Config.WinRMUseNTLM {
+				s.Config.WinRMTransportDecorator = ProxyTransportDecoratorWithNTLM
+			} else {
+				s.Config.WinRMTransportDecorator = ProxyTransportDecorator
+			}
+
 		}
 
 		log.Println("[INFO] Attempting WinRM connection...")
@@ -236,4 +241,8 @@ func envProxyFunc() func(*url.URL) (*url.URL, error) {
 // easiest way to work around this limitation.
 func ProxyTransportDecorator() winrmcmd.Transporter {
 	return winrmcmd.NewClientWithProxyFunc(RefreshProxyFromEnvironment)
+}
+
+func ProxyTransportDecoratorWithNTLM() winrmcmd.Transporter {
+	return winrmcmd.NewClientNTLMWithProxy(RefreshProxyFromEnvironment)
 }
