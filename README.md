@@ -1,4 +1,8 @@
-# Packer
+# Packer -  Bourne-ID/WinRM Edit - v1.6.6
+
+This fork adjusts the superzen/winrm and plugin-sdk vendor packages to allow for winRM to work behind the settings NTLM and No_proxy. This fork will be removed once https://github.com/masterzen/winrm/pull/116 and https://github.com/hashicorp/packer/issues/10343 have been resolved.
+
+## The rest of this README copies the parent repo. 
 
 [![Build Status][circleci-badge]][circleci]
 [![Windows Build Status][appveyor-badge]][appveyor]
